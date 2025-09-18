@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f14672b7de3bd4586d545944a50bcc, type: 3}
+  m_Name: Interceptor Upgrade
+  m_EditorClassIdentifier: 
+  key: 'int (Cost, MaxProjectCharge)
+
+    float (recharge time);'
+  levelCount: 3
+  data:
+  - sprites:
+    - {fileID: -1269803951, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    - {fileID: 364774924, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    intData: 6400000001000000
+    floatData:
+    - 10
+  - sprites:
+    - {fileID: -1566051202, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    - {fileID: 275689012, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    intData: c800000002000000
+    floatData:
+    - 7
+  - sprites:
+    - {fileID: -280505478, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    - {fileID: -364039828, guid: 345b3a78aec4c454e9da4b7362033e27, type: 3}
+    intData: 2c01000003000000
+    floatData:
+    - 4

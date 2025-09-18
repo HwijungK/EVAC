@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005f68a373efcc8449ac9ba79c6367f6, type: 3}
+  m_Name: PerRoundResearchSO
+  m_EditorClassIdentifier: 
+  researchTree:
+    node: {fileID: 11400000, guid: 5a8af49e92d23b644ab9ff80ffb5a324, type: 2}
+    children:
+    - node: {fileID: 11400000, guid: 976a563faa4978d46abd4e0e15ebfe0b, type: 2}
+      children:
+      - node: {fileID: 11400000, guid: 56a968220abd09a48a31716e8da430c8, type: 2}
+        children: []
+      - node: {fileID: 11400000, guid: e0f02e6064498ba439727a00c011bf53, type: 2}
+        children: []
+    - node: {fileID: 11400000, guid: 6391fad624222a94c9f23397aff0b21f, type: 2}
+      children:
+      - node: {fileID: 11400000, guid: 0206d0f674c00774f9a6d57505d3f86b, type: 2}
+        children: []
